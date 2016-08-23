@@ -277,7 +277,7 @@ $(document).ready(function(){
         submitBtn.attr('data-loading-text', 'Обработка...');
         submitBtn.button('loading');
         $.ajax({
-          url: '/',
+          url: './',
           type: 'get',
           data: str
         })
